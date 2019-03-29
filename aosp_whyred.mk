@@ -58,7 +58,11 @@ PLATFORM_SECURITY_PATCH_OVERRIDE := 2020-05-05
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
 
+# Set this flag in build script
+ifeq ($(CURRENT_BUILD_TYPE), gapps)
 # Use Gapps
+TARGET_SHIPS_SEPERATE_GAPPS_BUILD := true
 WITH_GAPPS := true
 TARGET_GAPPS_ARCH := arm64
 IS_PHONE := true
+endif
