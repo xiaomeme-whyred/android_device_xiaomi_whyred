@@ -178,6 +178,10 @@ vendor/lib64/libscvePanorama.so
 vendor/lib64/libscvePanorama_lite.so	
 vendor/lib64/libvideoutils.so
 
+# Camera watermark - from jasmine V11.0.8.0.QDIMIXM
+vendor/lib/libMiWatermark.so|fe09202b8283cd88f86e96a5ef52b4db94b7ade5
+vendor/lib/libft2vendor.so|1332ed2141660b9372c959ca1155575c25a73751
+
 # Camera - libmmcamera whyred - from V10.3.5.0.PEICNXM
 vendor/lib/libmmcamera_whyred_ov13855_sunny_cn_i.so
 vendor/lib/libmmcamera_whyred_ov13855_sunny_cn_i_eeprom.so
