@@ -744,5 +744,5 @@ vendor/lib64/libthermalioctl.so
 -vendor/lib/libthermalclient.so
 -vendor/lib64/libthermalclient.so
 
-# Wifi
-vendor/bin/cnss-daemon
+# Wifi - from jasmine V11.0.8.0.QDIMIXM
+vendor/bin/cnss-daemon|a371213adc8fc7677d519c8d942761ffeee0f345
