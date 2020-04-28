@@ -43,8 +43,12 @@ TARGET_HW_DISK_ENCRYPTION := true
 # Display
 TARGET_SCREEN_DENSITY := 420
 
+# DT2W
+TARGET_TAP_TO_WAKE_NODE := "/proc/tp_gesture"
+
 # Kernel
 TARGET_KERNEL_CONFIG := whyred-perf_defconfig
+TARGET_KERNEL_SOURCE := kernel/xiaomi/whyred
 
 # Manifest
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/configs/manifest.xml
