@@ -77,6 +77,10 @@ on boot
     chmod 0770 /sys/class/power_supply/battery/device/thermalcall
     chown system system /sys/class/power_supply/battery/device/thermalcall
 
+    # Touchscreen
+    chown system system /proc/tp_gesture
+    chmod 0660  /proc/tp_gesture
+
     # Enable camera read sensors data
     setprop persist.camera.gyro.disable 0
 
