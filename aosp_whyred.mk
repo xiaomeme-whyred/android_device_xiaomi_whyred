@@ -53,6 +53,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 #Build FP to be picked by both system and vendor
 BUILD_FINGERPRINT := "google/coral/coral:10/QQ2A.200501.001.B2/6352890:user/release-keys"
+PLATFORM_SECURITY_PATCH_OVERRIDE := 2020-05-05
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.fingerprint=$(BUILD_FINGERPRINT)
