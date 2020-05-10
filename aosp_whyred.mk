@@ -24,6 +24,9 @@ $(call inherit-product, vendor/aosp/common.mk)
 # Inherit from whyred.
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
+# Inherit from custom vendor.
+$(call inherit-product, vendor/MiuiCamera/config.mk)
+
 # Set Shipping API level.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o_mr1.mk)
 
